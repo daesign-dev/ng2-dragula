@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/daesign-dev/ng2-dragula/compare/v2.1.1...v2.2.0) (2020-11-10)
+
+
+### Features
+
+* Angular 10 Compatibility ([#1008](https://github.com/daesign-dev/ng2-dragula/issues/1008)) ([ad945e0](https://github.com/daesign-dev/ng2-dragula/commit/ad945e0d5e709216e2bb551927a1dd3713589bf3))
+
+
+
+
+
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/valor-software/ng2-dragula/compare/v2.1.0...v2.1.1) (2018-11-01)
 
