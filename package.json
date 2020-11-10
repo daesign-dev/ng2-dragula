@@ -5,7 +5,7 @@
   "description": "Simple drag and drop with dragula",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    "url": "git+https://github.com/daesign-dev/ng2-dragula"
   },
   "keywords": [
     "angular",
@@ -32,6 +32,7 @@
     "test": "ng test",
     "test:headless": "ng test --browsers=CustomChromeHeadless",
     "test-coverage": "yarn test --code-coverage --watch=false --progress=false",
+    "prepare": "yarn clean && yarn build",
     "watch": "chokidar 'src/**/*.ts' 'src/**/*.html' 'src/**/*.scss' -c 'yarn build'"
   },
   "dependencies": {
