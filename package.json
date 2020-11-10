@@ -30,7 +30,5 @@
   "workspaces": [
     "modules/*"
   ],
-  "dependencies": {
-    "dragula": "git+https://github.com/daesign-dev/dragula.git#v3.7.6"
-  }
+  "dependencies": {}
 }
