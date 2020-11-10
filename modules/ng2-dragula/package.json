@@ -5,7 +5,7 @@
   "description": "Simple drag and drop with dragula",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    "url": "git+https://github.com/daesign-dev/ng2-dragula"
   },
   "keywords": [
     "angular",
