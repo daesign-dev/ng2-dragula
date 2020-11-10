@@ -3323,11 +3323,12 @@ cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-crossvent@1.5.4:
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/crossvent/-/crossvent-1.5.4.tgz#da2c4f8f40c94782517bf2beec1044148194ab92"
+crossvent@1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/crossvent/-/crossvent-1.5.5.tgz#ad20878e4921e9be73d9d6976f8b2ecd0f71a0b1"
+  integrity sha1-rSCHjkkh6b5z2daXb4suzQ9xoLE=
   dependencies:
-    custom-event "1.0.0"
+    custom-event "^1.0.0"
 
 cryptiles@2.x.x:
   version "2.0.5"
@@ -3410,11 +3411,7 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-custom-event@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/custom-event/-/custom-event-1.0.0.tgz#2e4628be19dc4b214b5c02630c5971e811618062"
-
-custom-event@~1.0.0:
+custom-event@^1.0.0, custom-event@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/custom-event/-/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
 
@@ -3787,12 +3784,12 @@ double-ended-queue@^2.1.0-0:
   version "2.1.0-0"
   resolved "https://registry.yarnpkg.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
 
-dragula@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/dragula/-/dragula-3.7.2.tgz#4a35c9d3981ffac1a949c29ca7285058e87393ce"
+"dragula@git+https://github.com/daesign-dev/dragula.git#v3.7.6":
+  version "3.7.6"
+  resolved "git+https://github.com/daesign-dev/dragula.git#f5e5cb02ff79b0ec84e94be8fdf2da1f14467f4b"
   dependencies:
     contra "1.9.4"
-    crossvent "1.5.4"
+    crossvent "1.5.5"
 
 duplexer2@^0.1.4:
   version "0.1.4"
@@ -10734,6 +10731,11 @@ typescript@2.8.3:
 typescript@^2.4.2, typescript@~2.9.1:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
+
+typescript@~2.8.2:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.4.tgz#0b1db68e6bdfb0b767fa2ab642136a35b059b199"
+  integrity sha512-IIU5cN1mR5J3z9jjdESJbnxikTrEz3lzAw/D0Tf45jHpBp55nY31UkUvmVHoffCfKHTqJs3fCLPDxknQTTFegQ==
 
 uglify-es@^3.3.4:
   version "3.3.9"
